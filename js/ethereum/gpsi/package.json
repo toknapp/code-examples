@@ -1,0 +1,14 @@
+{
+  "name": "@upvest/gpsi-ethereum-code-example",
+  "version": "0.0.1",
+  "description": "CODE EXAMPLE: How to use the Upvest GPSI (General Purpose Signing Interface) for Ethereum",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Raphael Huefner <raphael@upvest.co>",
+  "license": "MIT",
+  "dependencies": {
+    "@upvest/clientele-api": "0.0.12",
+    "ethereumjs-tx": "^2.1.1",
+    "web3": "^1.2.1"
+  }
+}

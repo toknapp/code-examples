@@ -1,0 +1,21 @@
+{
+  "netName": "ropsten",
+  "infuraProjectId": "0123456789abcdef0123456789abcdef",
+  "upvest": {
+    "baseUrl": "https://api.playground.upvest.co/1.0/",
+    "timeout": 60000,
+    "OAuth2ClientId": "randomCHARSrandomCHARSrandomCHARSrandom4",
+    "OAuth2ClientSecret": "randomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandom4",
+    "OAuth2Scopes": ["read", "write", "echo", "wallet", "transaction"],
+    "username": "EXAMPLE_USERNAME",
+    "password": "EXAMPLE_PASSWORD",
+    "walletId": "01234567-0123-4567-0123-0123456789ab",
+    "walletAddress": "0x0123456789abcdef0123456789abcdef01234567"
+  },
+  "ether": {
+    "value": 100000000000000,
+    "recipientAddress": "0x123456789abcdef0123456789abcdef012345678"
+  },
+  "gasLimit": 60000,
+  "gasPrice": 3500000000
+}

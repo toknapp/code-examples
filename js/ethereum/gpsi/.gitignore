@@ -1,0 +1,12 @@
+node_modules
+.config*.json
+.*config*.json
+*config*.json
+.cfg*.json
+.*cfg*.json
+*cfg*.json
+!example-config-erc20.json
+!example-config-ether.json
+package-lock.json
+yarn.lock
+*.log
