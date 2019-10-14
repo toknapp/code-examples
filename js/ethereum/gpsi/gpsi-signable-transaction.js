@@ -36,8 +36,8 @@ UpvestGpsiTransaction.prototype.sign = async function (upvestApi, walletId, pass
 
   // This step was copy-n-pasted from EthereumJS again:
   // Save signature as properties of the Tx, just like it is done in EthJsTransaction.sign()
-  this.r = Buffer.from(un0x(upvestSig.r), 'hex');
-  this.s = Buffer.from(un0x(upvestSig.s), 'hex');
+  this.r = Buffer.from(un0x(upvestSig.r).padStart(64, '0'), 'hex');
+  this.s = Buffer.from(un0x(upvestSig.s).padStart(64, '0'), 'hex');
   const ethRecoveryOffset = this._implementsEIP155() ? this.getChainId() * 2 + 35 : 27;
   this.v = Number(upvestSig.recover) + ethRecoveryOffset;
 };
