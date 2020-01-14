@@ -1,0 +1,12 @@
+{
+  "name": "@upvest/complex-ethereum-code-example",
+  "version": "0.0.1",
+  "description": "CODE EXAMPLE: How to use the Upvest Complex Transactions API for Ethereum",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Raphael Huefner <raphael@upvest.co>",
+  "license": "MIT",
+  "dependencies": {
+    "@upvest/clientele-api": "0.0.19"
+  }
+}

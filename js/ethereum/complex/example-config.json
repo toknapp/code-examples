@@ -1,0 +1,38 @@
+{
+  "upvest": {
+    "baseUrl": "https://api.playground.upvest.co/1.0/",
+    "timeout": 60000,
+    "OAuth2ClientId": "randomCHARSrandomCHARSrandomCHARSrandom4",
+    "OAuth2ClientSecret": "randomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandomCHARSrandom4",
+    "OAuth2Scopes": ["read", "write", "echo", "wallet", "transaction"],
+    "username": "EXAMPLE_USERNAME",
+    "password": "EXAMPLE_PASSWORD",
+    "walletId": "01234567-0123-4567-0123-0123456789ab",
+    "walletAddress": "0x0123456789abcdef0123456789abcdef01234567"
+  },
+  "contract": {
+    "address": "0x123456789abcdef0123456789abcdef012345678",
+    "functionAbi": {
+      "constant": false,
+      "inputs": [{"name": "_to", "type": "address"}, {"name": "_value", "type": "uint256"}],
+      "name": "transfer",
+      "outputs": [{"name": "", "type": "bool"}],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    "callParameters": [
+      "0x23456789abcdef0123456789abcdef0123456789",
+      "1"
+    ]
+  },
+  "value": 100000000000000,
+  "gasLimit": 60000,
+  "gasPrice": 3500000000,
+  "pollingForTxHash": {
+    "maxTotalSeconds": 480,
+    "maxIntervalSeconds": 30,
+    "initialIntervalSeconds": 1,
+    "backOffFactor": 2
+  }
+}
