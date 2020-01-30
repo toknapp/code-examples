@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 
 function verifyUpvestWebhookHmac(requestHeaders, rawRequestBody, hmacSecretKey) {
-  const signatureHeader = requestHeaders['X-Up-Signature'];
+  const signatureHeader = requestHeaders['X-UP-Signature'];
   if (!signatureHeader) {
     return false;
   }
